@@ -1,7 +1,7 @@
 <script lang="ts">
   import Counter from "$lib/Counter.svelte";
   import Button from "$lib/components/ui/button/button.svelte";
-  import { Greet } from "$wailsjs/hello/HelloService.js";
+  import { Greet } from "$wailsjs/HelloUseCase.js";
   import logo from "../assets/images/logo-universal.png";
 
   let resultText: string = "Please enter your name below 👇";

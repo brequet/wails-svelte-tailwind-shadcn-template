@@ -5,8 +5,8 @@
     "paths": {
       "$lib": ["./src/lib"],
       "$lib/*": ["./src/lib/*"],
-      "$wailsjs": ["./wailsjs/go"],
-      "$wailsjs/*": ["./wailsjs/go/*"]
+      "$wailsjs": ["./wailsjs/go/usecase"],
+      "$wailsjs/*": ["./wailsjs/go/usecase/*"]
     },
     "target": "ESNext",
     "useDefineForClassFields": true,

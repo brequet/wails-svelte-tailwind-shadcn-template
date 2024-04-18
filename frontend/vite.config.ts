@@ -8,7 +8,7 @@ export default defineConfig({
   resolve: {
     alias: {
       $lib: path.resolve("./src/lib"),
-      $wailsjs: path.resolve("./wailsjs/go"),
+      $wailsjs: path.resolve("./wailsjs/go/usecase"),
     },
   },
 });
